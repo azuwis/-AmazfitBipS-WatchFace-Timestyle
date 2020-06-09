@@ -62,9 +62,9 @@
     "MonthAndDay": {
       "Separate": {
         "Month": {
-          "TopLeftX": -32,
+          "TopLeftX": -42,
           "TopLeftY": 115,
-          "BottomRightX": 2,
+          "BottomRightX": -8,
           "BottomRightY": 127,
           "Alignment": "TopLeft",
           "Spacing": -34,
