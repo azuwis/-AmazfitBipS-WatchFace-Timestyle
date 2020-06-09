@@ -48,9 +48,9 @@
     "Steps": {
       "Number": {
         "TopLeftX": 131,
-        "TopLeftY": 28,
+        "TopLeftY": 29,
         "BottomRightX": 173,
-        "BottomRightY": 43,
+        "BottomRightY": 44,
         "Alignment": "TopCenter",
         "Spacing": 2,
         "ImageIndex": 11,
@@ -63,9 +63,9 @@
       "Separate": {
         "Month": {
           "TopLeftX": -32,
-          "TopLeftY": 116,
+          "TopLeftY": 115,
           "BottomRightX": 2,
-          "BottomRightY": 128,
+          "BottomRightY": 127,
           "Alignment": "TopLeft",
           "Spacing": -34,
           "ImageIndex": 21,
@@ -86,7 +86,7 @@
       "TwoDigitsDay": true
     },
     "WeekDay": {
-      "X": 135,
+      "X": 134,
       "Y": 5,
       "ImageIndex": 41,
       "ImagesCount": 7,
