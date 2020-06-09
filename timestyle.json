@@ -53,7 +53,7 @@
         "BottomRightY": 43,
         "Alignment": "TopCenter",
         "Spacing": 2,
-        "ImageIndex": 66,
+        "ImageIndex": 11,
         "ImagesCount": 10
       }
     }
@@ -68,7 +68,7 @@
           "BottomRightY": 128,
           "Alignment": "TopLeft",
           "Spacing": -34,
-          "ImageIndex": 11,
+          "ImageIndex": 21,
           "ImagesCount": 10
         },
         "Day": {
@@ -78,7 +78,7 @@
           "BottomRightY": 162,
           "Alignment": "TopCenter",
           "Spacing": 2,
-          "ImageIndex": 21,
+          "ImageIndex": 31,
           "ImagesCount": 10
         }
       },
@@ -88,7 +88,7 @@
     "WeekDay": {
       "X": 135,
       "Y": 5,
-      "ImageIndex": 31,
+      "ImageIndex": 41,
       "ImagesCount": 7,
       "Unknown5": 0,
       "Unknown6": 0
@@ -99,7 +99,7 @@
       "CustomIcon": {
         "X": 136,
         "Y": 49,
-        "ImageIndex": 38,
+        "ImageIndex": 48,
         "ImagesCount": 26
       }
     },
@@ -112,11 +112,11 @@
           "BottomRightY": 103,
           "Alignment": "TopCenter",
           "Spacing": 2,
-          "ImageIndex": 21,
+          "ImageIndex": 31,
           "ImagesCount": 10
         },
-        "MinusImageIndex": 64,
-        "DegreesImageIndex": 65
+        "MinusImageIndex": 74,
+        "DegreesImageIndex": 75
       }
     }
   }
