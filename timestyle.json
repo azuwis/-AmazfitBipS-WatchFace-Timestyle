@@ -54,7 +54,7 @@
           "BottomRightY": 130,
           "Alignment": "TopLeft",
           "Spacing": -34,
-          "ImageIndex": 56,
+          "ImageIndex": 11,
           "ImagesCount": 10
         },
         "Day": {
@@ -64,7 +64,7 @@
           "BottomRightY": 162,
           "Alignment": "TopCenter",
           "Spacing": 2,
-          "ImageIndex": 11,
+          "ImageIndex": 21,
           "ImagesCount": 10
         }
       },
@@ -74,7 +74,7 @@
     "WeekDay": {
       "X": 135,
       "Y": 5,
-      "ImageIndex": 21,
+      "ImageIndex": 31,
       "ImagesCount": 7,
       "Unknown5": 0,
       "Unknown6": 0
@@ -85,7 +85,7 @@
       "CustomIcon": {
         "X": 136,
         "Y": 34,
-        "ImageIndex": 28,
+        "ImageIndex": 38,
         "ImagesCount": 26
       }
     },
@@ -98,11 +98,11 @@
           "BottomRightY": 90,
           "Alignment": "TopCenter",
           "Spacing": 2,
-          "ImageIndex": 11,
+          "ImageIndex": 21,
           "ImagesCount": 10
         },
-        "MinusImageIndex": 54,
-        "DegreesImageIndex": 55
+        "MinusImageIndex": 64,
+        "DegreesImageIndex": 65
       }
     }
   }
