@@ -44,6 +44,20 @@
       }
     }
   },
+  "Activity": {
+    "Steps": {
+      "Number": {
+        "TopLeftX": 131,
+        "TopLeftY": 28,
+        "BottomRightX": 173,
+        "BottomRightY": 43,
+        "Alignment": "TopCenter",
+        "Spacing": 2,
+        "ImageIndex": 66,
+        "ImagesCount": 10
+      }
+    }
+  },
   "Date": {
     "MonthAndDay": {
       "Separate": {
