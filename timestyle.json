@@ -12,13 +12,17 @@
         "X": 5,
         "Y": 5,
         "ImageIndex": 1,
-        "ImagesCount": 10
+        "ImagesCount": 10,
+        "Unknown5": 0,
+        "Unknown6": 0
       },
       "Ones": {
         "X": 68,
         "Y": 5,
         "ImageIndex": 1,
-        "ImagesCount": 10
+        "ImagesCount": 10,
+        "Unknown5": 0,
+        "Unknown6": 0
       }
     },
     "Minutes": {
@@ -26,13 +30,17 @@
         "X": 5,
         "Y": 91,
         "ImageIndex": 1,
-        "ImagesCount": 10
+        "ImagesCount": 10,
+        "Unknown5": 0,
+        "Unknown6": 0
       },
       "Ones": {
         "X": 68,
         "Y": 91,
         "ImageIndex": 1,
-        "ImagesCount": 10
+        "ImagesCount": 10,
+        "Unknown5": 0,
+        "Unknown6": 0
       }
     }
   },
@@ -57,7 +65,9 @@
       "X": 135,
       "Y": 159,
       "ImageIndex": 21,
-      "ImagesCount": 7
+      "ImagesCount": 7,
+      "Unknown5": 0,
+      "Unknown6": 0
     }
   },
   "Weather": {
