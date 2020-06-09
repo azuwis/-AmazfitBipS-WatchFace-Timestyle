@@ -49,9 +49,9 @@
       "Separate": {
         "Month": {
           "TopLeftX": -32,
-          "TopLeftY": 118,
+          "TopLeftY": 116,
           "BottomRightX": 2,
-          "BottomRightY": 130,
+          "BottomRightY": 128,
           "Alignment": "TopLeft",
           "Spacing": -34,
           "ImageIndex": 11,
@@ -84,7 +84,7 @@
     "Icon": {
       "CustomIcon": {
         "X": 136,
-        "Y": 34,
+        "Y": 49,
         "ImageIndex": 38,
         "ImagesCount": 26
       }
@@ -93,9 +93,9 @@
       "Current": {
         "Number": {
           "TopLeftX": 134,
-          "TopLeftY": 75,
+          "TopLeftY": 88,
           "BottomRightX": 176,
-          "BottomRightY": 90,
+          "BottomRightY": 103,
           "Alignment": "TopCenter",
           "Spacing": 2,
           "ImageIndex": 21,
