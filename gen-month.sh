@@ -9,10 +9,10 @@ months='JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC'
 
 if [ "$1" = 'cn' ]
 then
-  font_args='-font SimSun-Bold.ttf -pointsize 14 +antialias -kerning 2'
+  font_args='-font SimSun-Bold.ttf -pointsize 17 +antialias'
   months='一月 二月 三月 四月 五月 六月 七月 八月 九月 十月 十一 十二'
-  size=34x14
-  extend=210x14
+  size=34x17
+  extend=210x17
 fi
 
 month=1

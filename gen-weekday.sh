@@ -8,9 +8,9 @@ weekdays='MON TUE WED THU FRI SAT SUN'
 
 if [ "$1" = 'cn' ]
 then
-  font_args='-font SimSun-Bold.ttf -pointsize 14 +antialias'
+  font_args='-font SimSun-Bold.ttf -pointsize 17 +antialias'
   weekdays='一 二 三 四 五 六 日'
-  size=36x14
+  size=36x17
 fi
 
 for i in $weekdays
