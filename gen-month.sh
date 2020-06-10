@@ -23,9 +23,9 @@ do
     background=black
     gravity=west
   fi
-  convert -background "$background" -fill white -trim -font LECO-1976-Regular.otf +antialias -pointsize 17 label:"$label" "$file"
-  mogrify -background "$background" -extent "$size" -gravity center "$file"
-  mogrify -background none -extent "$extend" -gravity "$gravity" "$file"
+  convert -background "$background" -fill white -trim -font LECO-1976-Regular.otf +antialias -pointsize 17 label:"$label" png:- | \
+    convert -background "$background" -extent "$size" -gravity center png:- png:- | \
+    convert -background none -extent "$extend" -gravity "$gravity" png:- "$file"
   if [ "$month" -ge 11 ]
   then
     merge="$(printf "%04d" "$((index+month-10))").png"
