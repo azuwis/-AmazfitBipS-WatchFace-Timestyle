@@ -52,7 +52,7 @@
         "BottomRightX": 170,
         "BottomRightY": 105,
         "Alignment": "TopCenter",
-        "Spacing": 2,
+        "Spacing": 1,
         "ImageIndex": 11,
         "ImagesCount": 10
       }
