@@ -3,10 +3,20 @@
 index=41
 size=36x12
 
-for i in MON TUE WED THU FRI SAT SUN
+font_args='-font LECO-1976-Regular.otf +antialias -pointsize 17'
+weekdays='MON TUE WED THU FRI SAT SUN'
+
+if [ "$1" = 'cn' ]
+then
+  font_args='-font SimSun-Bold.ttf -pointsize 14 +antialias'
+  weekdays='一 二 三 四 五 六 日'
+  size=36x14
+fi
+
+for i in $weekdays
 do
   file="$(printf "%04d" "$index").png"
-  convert -background none -fill white -trim -font LECO-1976-Regular.otf +antialias -pointsize 17 label:"$i" png:- | \
+  convert -background none -fill white -trim $font_args label:"$i" png:- | \
     convert -background none -extent "$size" -gravity center png:- "$file"
   index="$((index+1))"
 done

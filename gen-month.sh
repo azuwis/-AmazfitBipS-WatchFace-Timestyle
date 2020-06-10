@@ -4,9 +4,20 @@ index=21
 size=34x12
 extend=210x12
 
+font_args='-font LECO-1976-Regular.otf +antialias -pointsize 17'
+months='JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC'
+
+if [ "$1" = 'cn' ]
+then
+  font_args='-font SimSun-Bold.ttf -pointsize 14 +antialias -kerning 2'
+  months='一月 二月 三月 四月 五月 六月 七月 八月 九月 十月 十一 十二'
+  size=34x14
+  extend=210x14
+fi
+
 month=1
 
-for label in JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC
+for label in $months
 do
   if [ "$month" -le 9 ]
   then
@@ -23,7 +34,7 @@ do
     background=black
     gravity=west
   fi
-  convert -background "$background" -fill white -trim -font LECO-1976-Regular.otf +antialias -pointsize 17 label:"$label" png:- | \
+  convert -background "$background" -fill white -trim $font_args label:"$label" png:- | \
     convert -background "$background" -extent "$size" -gravity center png:- png:- | \
     convert -background none -extent "$extend" -gravity "$gravity" png:- "$file"
   if [ "$month" -ge 11 ]
