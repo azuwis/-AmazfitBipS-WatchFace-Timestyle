@@ -49,7 +49,7 @@
       "Number": {
         "TopLeftX": 131,
         "TopLeftY": 29,
-        "BottomRightX": 173,
+        "BottomRightX": 170,
         "BottomRightY": 44,
         "Alignment": "TopCenter",
         "Spacing": 2,
@@ -86,7 +86,7 @@
       "TwoDigitsDay": true
     },
     "WeekDay": {
-      "X": 134,
+      "X": 133,
       "Y": 5,
       "ImageIndex": 41,
       "ImagesCount": 7,
