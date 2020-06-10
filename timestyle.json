@@ -48,9 +48,9 @@
     "Steps": {
       "Number": {
         "TopLeftX": 131,
-        "TopLeftY": 30,
+        "TopLeftY": 90,
         "BottomRightX": 170,
-        "BottomRightY": 45,
+        "BottomRightY": 105,
         "Alignment": "TopCenter",
         "Spacing": 2,
         "ImageIndex": 11,
@@ -63,9 +63,9 @@
       "Separate": {
         "Month": {
           "TopLeftX": -43,
-          "TopLeftY": 113,
+          "TopLeftY": 111,
           "BottomRightX": -9,
-          "BottomRightY": 125,
+          "BottomRightY": 123,
           "Alignment": "TopLeft",
           "Spacing": -34,
           "ImageIndex": 21,
@@ -87,7 +87,7 @@
     },
     "WeekDay": {
       "X": 133,
-      "Y": 5,
+      "Y": 65,
       "ImageIndex": 41,
       "ImagesCount": 7,
       "Unknown5": 0,
@@ -98,7 +98,7 @@
     "Icon": {
       "CustomIcon": {
         "X": 136,
-        "Y": 49,
+        "Y": 5,
         "ImageIndex": 48,
         "ImagesCount": 26
       }
@@ -107,9 +107,9 @@
       "Current": {
         "Number": {
           "TopLeftX": 134,
-          "TopLeftY": 88,
+          "TopLeftY": 40,
           "BottomRightX": 176,
-          "BottomRightY": 103,
+          "BottomRightY": 54,
           "Alignment": "TopCenter",
           "Spacing": 2,
           "ImageIndex": 31,
