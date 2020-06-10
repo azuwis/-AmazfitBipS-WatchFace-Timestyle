@@ -119,5 +119,16 @@
         "DegreesImageIndex": 75
       }
     }
+  },
+  "Status": {
+    "Bluetooth": {
+      "Coordinates": {
+        "X": 134,
+        "Y": 135,
+        "Unknown09": 0,
+        "Unknown10": 0
+      },
+      "ImageIndexOn": 76
+    }
   }
 }
