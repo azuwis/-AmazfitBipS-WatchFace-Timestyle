@@ -86,7 +86,7 @@
       "TwoDigitsDay": true
     },
     "WeekDay": {
-      "X": 132,
+      "X": 133,
       "Y": 63,
       "ImageIndex": 41,
       "ImagesCount": 7,
@@ -106,9 +106,9 @@
     "Temperature": {
       "Current": {
         "Number": {
-          "TopLeftX": 134,
+          "TopLeftX": 136,
           "TopLeftY": 39,
-          "BottomRightX": 176,
+          "BottomRightX": 178,
           "BottomRightY": 53,
           "Alignment": "TopCenter",
           "Spacing": 2,
