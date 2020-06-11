@@ -48,9 +48,9 @@
     "Steps": {
       "Number": {
         "TopLeftX": 131,
-        "TopLeftY": 91,
+        "TopLeftY": 92,
         "BottomRightX": 170,
-        "BottomRightY": 106,
+        "BottomRightY": 107,
         "Alignment": "TopCenter",
         "Spacing": 1,
         "ImageIndex": 11,
@@ -107,9 +107,9 @@
       "Current": {
         "Number": {
           "TopLeftX": 134,
-          "TopLeftY": 40,
+          "TopLeftY": 39,
           "BottomRightX": 176,
-          "BottomRightY": 54,
+          "BottomRightY": 53,
           "Alignment": "TopCenter",
           "Spacing": 2,
           "ImageIndex": 31,
