@@ -9,7 +9,7 @@ months='JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC'
 
 if [ "$1" = 'cn' ]
 then
-  font_args='-font SimSun-Bold.ttf -pointsize 17 +antialias'
+  font_args='-font msyhbd.ttc -pointsize 17 +antialias'
   months='一月 二月 三月 四月 五月 六月 七月 八月 九月 十月 十一 十二'
   size=34x17
   extend=210x17
@@ -35,7 +35,7 @@ do
     gravity=west
   fi
   convert -background "$background" -fill white -trim $font_args label:"$label" png:- | \
-    convert -background "$background" -extent "$size" -gravity center png:- png:- | \
+    convert -background "$background" -extent "$size" -gravity south png:- png:- | \
     convert -background none -extent "$extend" -gravity "$gravity" png:- "$file"
   if [ "$month" -ge 11 ]
   then
